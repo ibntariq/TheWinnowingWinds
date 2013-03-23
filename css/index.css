@@ -1,0 +1,98 @@
+
+body{
+    background-color: #E8E8E8;
+}
+
+#nav{
+    background-color: #780000;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 500px;
+    height: 100%;
+    box-shadow:  0 0 10px 1px #780000 ;
+}
+
+#content{
+        background-color: #E8E8E8;
+        position: absolute;
+        top: 0px;
+        margin-left: 43%;
+        width: 700px;
+        height: 100%;
+        float: left;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#title{
+    font-size: 50px;
+}
+
+#post{
+    font-size: 20px;
+}
+
+#date{
+    font-size: 15px;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "code";
+    src: url("/WWB/fonts/code.otf") format("opentype"); /* Other browsers */
+}
+
+@font-face {
+    font-family: "jura";
+    src: url("/WWB/fonts/jura.otf") format("truetype"); /* Other browsers */
+}
+
+h1{
+    font-family: code;
+    font-size: 40px;
+}
+
+p{
+    font-family: jura;
+}
+
+.links{
+    color: white;
+}
+
+#links1{
+    margin-top: 105%;
+    margin-left: 16.5%;    
+}
+
+#links2{
+    margin-top: 105%;
+    margin-left: 6.6%;    
+}
+
+li{
+    list-style: none;
+    display: inline;    
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-family:"jura";
+    font-size: 20px;
+}
+
+#logo{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 15%;
+}
+
+
+
+
+
+
+
